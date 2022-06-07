@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2218F8AE-9050-4DDD-9623-FFED60B3F9CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NobleSearch.Web", "src\NobleSearch.Web\NobleSearch.Web.csproj", "{4753BAF7-DC5D-461F-AD71-D365B0102EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NobleSearch.Indexer", "src\NobleSearch.Indexer\NobleSearch.Indexer.csproj", "{718BE75C-D28F-4922-8CDF-FA60BBDCDC88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4753BAF7-DC5D-461F-AD71-D365B0102EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4753BAF7-DC5D-461F-AD71-D365B0102EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4753BAF7-DC5D-461F-AD71-D365B0102EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4753BAF7-DC5D-461F-AD71-D365B0102EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718BE75C-D28F-4922-8CDF-FA60BBDCDC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718BE75C-D28F-4922-8CDF-FA60BBDCDC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718BE75C-D28F-4922-8CDF-FA60BBDCDC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718BE75C-D28F-4922-8CDF-FA60BBDCDC88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4753BAF7-DC5D-461F-AD71-D365B0102EEA} = {2218F8AE-9050-4DDD-9623-FFED60B3F9CD}
+		{718BE75C-D28F-4922-8CDF-FA60BBDCDC88} = {2218F8AE-9050-4DDD-9623-FFED60B3F9CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAEC8847-2E28-4838-AA3D-FF4D80452C08}
+	EndGlobalSection
+EndGlobal

@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NobleSearch.Web", "src\Nobl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NobleSearch.Indexer", "src\NobleSearch.Indexer\NobleSearch.Indexer.csproj", "{718BE75C-D28F-4922-8CDF-FA60BBDCDC88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NobleSearch.Model", "src\NobleSearch.Model\NobleSearch.Model.csproj", "{83ADC534-A95E-49A4-A7B7-FF5895330457}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{718BE75C-D28F-4922-8CDF-FA60BBDCDC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{718BE75C-D28F-4922-8CDF-FA60BBDCDC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{718BE75C-D28F-4922-8CDF-FA60BBDCDC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83ADC534-A95E-49A4-A7B7-FF5895330457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83ADC534-A95E-49A4-A7B7-FF5895330457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83ADC534-A95E-49A4-A7B7-FF5895330457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83ADC534-A95E-49A4-A7B7-FF5895330457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

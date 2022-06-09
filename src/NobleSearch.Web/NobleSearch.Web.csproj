@@ -11,4 +11,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="SearchByCategory\" />
+    <Folder Include="SearchByFirstName\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NobleSearch.Model\NobleSearch.Model.csproj" />
+  </ItemGroup>
+
 </Project>
